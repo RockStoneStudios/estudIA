@@ -26,8 +26,7 @@ Desglose extra con columnas reales, no es KPI nuevo:
 - Mayor ingreso por producto = Mayor `Ingresos Totales` en `productos_vendidos_Caseron.xlsx`
 
 Ejemplo real de ventas: 2026-10-03, 43 pedidos, $3,143,000.00 total, ticket = 3143000 / 43 = $73,093.
-Ejemplo real de INVIAS: Peaje 26 CISNEROS, 1/01/2026 a 15/01/2026, Tarifa $24,600, TráficoTotal 98,653, RecaudoTotal $2,413,087,800.
-
+Ejemplo real de INVIAS: Peaje SAN CRISTOBAL, Antioquia, Medellín, con su `Tarifa`, `TraficoTotal` y `RecaudoTotal` por rango `FechaDesde` - `FechaHasta`.
 ## Frecuencia
 - Ventas + productos + clima: cada día a las 6:00 a.m.
 - Peajes INVIAS: cada mes / quincena, cuando INVIAS publica el resumen. En tu archivo viene por rango `FechaDesde` - `FechaHasta`.

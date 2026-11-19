@@ -1,6 +1,8 @@
 # Contrato: fuentes del proyecto corredor vial
 
-## 1. Peajes INVIAS - `peajes_invias` - TU ARCHIVO REAL
+## 1. Peajes INVIAS - `peajes_invias`
+Filtro del proyecto: `Peaje ILIKE '%SAN CRISTOBAL%'` y `Departamento = 'Antioquia'`.
+Solo se usa San Cristóbal, porque es el peaje del corredor Medellín - Sopetrán. 
 
 Archivo: `6._Resumen_Mensual_por_estación_de_Peaje_Tráfico_y_Recaudo_2014_a_jun_2026.xlsx`
 Hoja: `TABLA DE SALIDA DETALLE REPORTE`
@@ -9,9 +11,9 @@ Hoja: `TABLA DE SALIDA DETALLE REPORTE`
 | --- | --- | --- | --- |
 | IdReporte | entero | no | 17800 |
 | IdPeaje | entero | no | 26 |
-| Peaje | texto | no | CISNEROS |
+| Peaje | texto | no | San Cristobal |
 | Departamento | texto | no | Antioquia |
-| Municipio | texto | no | Cisneros |
+| Municipio | texto | no | San Cristobal |
 | Divipola | texto | no | 05190 |
 | Proyecto | texto | no | IP - Vías del Nus |
 | FechaDesde | fecha | no | 1/01/2026 |
